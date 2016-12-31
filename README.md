@@ -1,3 +1,4 @@
+# anki-edit-images-externally
 This add on adds a button to the add/editor window that, when clicked, opens up all images in the note in whatever image editor you have set to default in OSx.   
 
 This is basically a clone of Dimitry Mikheev's "Edit Audio Images" add on (https://ankiweb.net/shared/info/1075177705) with a few work arounds to get it working in Mac OSx.   
