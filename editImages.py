@@ -25,6 +25,9 @@ from aqt.utils import showInfo
 # import all of the Qt GUI library
 from aqt.qt import *
 
+# Chain several iterables
+from itertools import chain
+
 #import regular expressions
 import re
 import os
@@ -40,7 +43,7 @@ def editPicExternally():
 
     #counter = len(mw.reviewer.card.note().fields)
     #throw all the fields in string form into an array
-    fields = mw.reviewer.card.note().fields
+    fields = chain(mw.reviewer.card.note().fields)
 
     #iterate through the array and find all image paths
     for field in fields:
